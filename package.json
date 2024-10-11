@@ -1,0 +1,30 @@
+{
+  "name": "vue-use-flag",
+  "version": "1.0.0",
+  "description": "A simple Vue 3 composable for making on/off states handling easier",
+  "main": "vue-use-flag.js",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/off-border/vue-use-flag.git"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "composable",
+    "flag",
+    "toggle"
+  ],
+  "author": "off_border",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/off-border/vue-use-flag/issues"
+  },
+  "homepage": "https://github.com/off-border/vue-use-flag#readme",
+  "dependencies": {
+    "vitest": "^2.1.2",
+    "vue": "^3.5.11"
+  }
+}
