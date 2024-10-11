@@ -17,15 +17,19 @@ closeModal();
 toggleModal();
 ```
 
-````html
+```html
 <template>
-  <MyModal v-if="isModalOpened"> some content </MyModal>
+    <MyModal v-if="isModalOpened"> some content </MyModal>
 </template>
+```
 
-## Usage ```js const [flag, on, off, toggle] = useFlag();
-````
+## Usage
 
-`flag` - is a ref, sroging flag value
+```js
+const [flag, on, off, toggle] = useFlag();
+```
+
+`flag` - a ref sroging the value
 
 `on()` - sets flag value to `true`
 
